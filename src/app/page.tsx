@@ -1,33 +1,12 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-6">
-            <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-indigo-600">AI Vision</h1>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <a href="#features" className="text-gray-700 hover:text-indigo-600 transition">Features</a>
-              <a href="#services" className="text-gray-700 hover:text-indigo-600 transition">Services</a>
-              <a href="#about" className="text-gray-700 hover:text-indigo-600 transition">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-indigo-600 transition">Contact</a>
-            </div>
-            <div className="flex space-x-3">
-              <a href="/login" className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition">
-                Login
-              </a>
-              <a href="/register" className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
-                Register
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+      <Navbar />
+      
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             Transform Your Business with
