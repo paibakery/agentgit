@@ -14,9 +14,14 @@ export default function Home() {
               <a href="#about" className="text-gray-700 hover:text-indigo-600 transition">About</a>
               <a href="#contact" className="text-gray-700 hover:text-indigo-600 transition">Contact</a>
             </div>
-            <a href="/login" className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition">
-              Login
-            </a>
+            <div className="flex space-x-3">
+              <a href="/login" className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition">
+                Login
+              </a>
+              <a href="/register" className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
+                Register
+              </a>
+            </div>
           </div>
         </div>
       </nav>
