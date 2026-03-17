@@ -14,9 +14,9 @@ export default function Home() {
               <a href="#about" className="text-gray-700 hover:text-indigo-600 transition">About</a>
               <a href="#contact" className="text-gray-700 hover:text-indigo-600 transition">Contact</a>
             </div>
-            <button className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
-              Get Started
-            </button>
+            <a href="/login" className="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition">
+              Login
+            </a>
           </div>
         </div>
       </nav>
